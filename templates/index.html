@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Medical AI ChatBot</title>
+<link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+<div class="chatbox">
+    <h2> Medical ChatBot</h2>
+    <div id="chatlog"></div>
+    <form id="chat-form">
+        <input type="text" id="user-input" placeholder="Describe your symptoms..." autocomplete="off">
+        <button type="submit">Send</button>
+    </form>
+</div>
+
+<script>
+const form = document.getElementById("chat-form");
+const userInput = document.getElementById("user-input");
+const chatlog = document.getElementById("chatlog");
+
+form.addEventListener("submit", e => {
+    e.preventDefault();
+    const msg = userInput.value;
+    if (!msg.trim()) return;
+
+    addMessage("You", msg);
+    userInput.value = "";
+
+    fetch("/get", {
+        method: "POST",
+        body: new URLSearchParams({ msg })
+    })
+    .then(res => res.json())
+    .then(data => addMessage("Bot", data.response));
+});
+
+function addMessage(sender, text) {
+    const msgDiv = document.createElement("div");
+    msgDiv.classList.add("message");
+    msgDiv.innerHTML = `<strong>${sender}:</strong> ${text}`;
+    chatlog.appendChild(msgDiv);
+    chatlog.scrollTop = chatlog.scrollHeight;
+}
+</script>
+</body>
+</html>

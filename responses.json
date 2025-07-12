@@ -1,0 +1,372 @@
+
+
+{
+  "hello":{
+     "advice":"Hello! how can I help you. Tell me your Disease. I give advice, Symtomes, treatment, Prevention.",
+     "symptoms": [],
+     "treatment": [],
+     "prevention": []
+  },
+  "fever": {
+    "advice": "You seem to have a fever. Please rest, stay hydrated, and if it persists more than 3 days, consult a doctor.",
+    "symptoms": ["High temperature", "Chills", "Sweating", "Weakness"],
+    "treatment": ["Rest", "Fluids", "Paracetamol", "Consult doctor if persists"],
+    "prevention": ["Wash hands", "Avoid sick people", "Stay hydrated"]
+  },
+  "headache": {
+    "advice": "Headaches are often due to stress or dehydration. Rest and drink water. See a doctor if severe or persistent.",
+    "symptoms": ["Pain in head", "Sensitivity to light", "Nausea", "Fatigue"],
+    "treatment": ["Rest", "Hydrate", "Painkillers", "Consult doctor if severe"],
+    "prevention": ["Manage stress", "Stay hydrated", "Good posture"]
+  },
+  "stomach pain": {
+    "advice": "For stomach pain, avoid heavy foods, drink warm fluids, and rest. If severe, seek medical advice.",
+    "symptoms": ["Cramps", "Nausea", "Bloating", "Pain"],
+    "treatment": ["Warm fluids", "Light food", "Antacids", "Doctor if severe"],
+    "prevention": ["Eat clean food", "Avoid overeating", "Drink enough water"]
+  },
+  "body pain": {
+    "advice": "General body pain may be due to fatigue. Rest and monitor. See a doctor if it worsens.",
+    "symptoms": ["Muscle ache", "Weakness", "Fatigue"],
+    "treatment": ["Rest", "Warm bath", "Pain relief", "Consult doctor if persists"],
+    "prevention": ["Avoid overexertion", "Exercise regularly", "Stay hydrated"]
+  },
+  "back pain": {
+    "advice": "For back pain, avoid heavy lifting, rest, and use a warm compress. Consult a doctor if it persists.",
+    "symptoms": ["Lower back ache", "Stiffness", "Pain on movement"],
+    "treatment": ["Rest", "Warm compress", "Painkillers", "Physiotherapy"],
+    "prevention": ["Good posture", "Exercise", "Avoid heavy lifting"]
+  },
+  "sore throat": {
+    "advice": "Gargle with warm salt water and drink warm liquids. If very painful or lasting more than 3 days, consult a doctor.",
+    "symptoms": ["Painful throat", "Difficulty swallowing", "Redness"],
+    "treatment": ["Warm fluids", "Salt water gargle", "Lozenges", "Antibiotics if bacterial"],
+    "prevention": ["Avoid close contact", "Hand hygiene", "Stay warm"]
+  },
+  "cough": {
+    "advice": "Drink warm liquids and honey. See a doctor if the cough persists more than 2 weeks.",
+    "symptoms": ["Persistent coughing", "Sore throat", "Chest discomfort"],
+    "treatment": ["Honey", "Warm fluids", "Cough syrup", "Doctor if persistent"],
+    "prevention": ["Avoid smoke", "Stay hydrated", "Cover mouth when coughing"]
+  },
+  "cold": {
+    "advice": "For a common cold, rest, drink warm fluids, and stay warm. Usually resolves in a few days.",
+    "symptoms": ["Runny nose", "Sneezing", "Mild fever", "Fatigue"],
+    "treatment": ["Rest", "Fluids", "Steam inhalation", "Paracetamol if needed"],
+    "prevention": ["Hand hygiene", "Avoid sick people", "Boost immunity"]
+  },
+  "dizziness": {
+    "advice": "Sit or lie down if dizzy, drink water. If frequent or with fainting, see a doctor.",
+    "symptoms": ["Lightheaded", "Unsteady", "Faint feeling"],
+    "treatment": ["Rest", "Hydrate", "Doctor if persists"],
+    "prevention": ["Avoid sudden movements", "Stay hydrated", "Eat regularly"]
+  },
+  "typhoid": {
+    "advice": "Typhoid is a bacterial infection. See a doctor for proper antibiotics.",
+    "symptoms": ["High fever", "Weakness", "Abdominal pain", "Loss of appetite"],
+    "treatment": ["Antibiotics", "Fluids", "Rest"],
+    "prevention": ["Safe drinking water", "Vaccination", "Hand washing"]
+  },
+  "hepatitis": {
+    "advice": "Hepatitis affects the liver. Get tested and consult a doctor.",
+    "symptoms": ["Jaundice", "Fatigue", "Abdominal pain", "Dark urine"],
+    "treatment": ["Antivirals (if applicable)", "Rest", "Avoid alcohol"],
+    "prevention": ["Vaccination", "Safe sex", "Avoid sharing needles"]
+  },
+  "depression": {
+    "advice": "If you feel persistently sad, anxious, or hopeless, reach out to a mental health professional.",
+    "symptoms": ["Low mood", "Loss of interest", "Sleep problems", "Fatigue"],
+    "treatment": ["Therapy", "Medication", "Support groups"],
+    "prevention": ["Stress management", "Healthy lifestyle", "Social support"]
+  },
+  "vomiting": {
+    "advice": "Stay hydrated and eat light meals after vomiting.",
+    "symptoms": ["Nausea", "Expelling stomach contents", "Weakness"],
+    "treatment": ["Fluids", "Rest", "Light meals"],
+    "prevention": ["Eat clean food", "Avoid overeating", "Manage motion sickness"]
+  },
+  "diarrhea": {
+    "advice": "Stay hydrated with ORS and avoid solid foods. If diarrhea is severe or bloody, seek immediate care.",
+    "symptoms": ["Frequent loose stools", "Dehydration", "Abdominal cramps"],
+    "treatment": ["ORS", "Fluids", "Light diet", "Antibiotics if prescribed"],
+    "prevention": ["Safe food & water", "Hand washing", "Proper hygiene"]
+  },
+  "chest pain": {
+    "advice": "Chest pain can be serious. Seek emergency medical help immediately.",
+    "symptoms": ["Tightness", "Pain", "Shortness of breath", "Sweating"],
+    "treatment": ["Emergency care", "Medication", "Monitoring"],
+    "prevention": ["Healthy lifestyle", "Manage stress", "Regular check-ups"]
+  },
+  "hiv": {
+    "advice": "HIV is a virus that attacks the immune system. Please consult a healthcare professional for testing and management.",
+    "symptoms": ["Fever", "Sore throat", "Fatigue", "Swollen lymph nodes"],
+    "treatment": ["Antiretroviral therapy", "Healthy diet", "Regular monitoring"],
+    "prevention": ["Safe sex", "No needle sharing", "Regular testing"]
+  },
+  "aids": {
+    "advice": "AIDS is the advanced stage of HIV infection. Proper medical care and treatment are essential. Please consult a doctor.",
+    "symptoms": ["Severe infections", "Weight loss", "Weak immunity"],
+    "treatment": ["Antiretrovirals", "Treat infections", "Supportive care"],
+    "prevention": ["Early HIV treatment", "Safe practices"]
+  },
+  "covid": {
+    "advice": "If you suspect COVID-19, isolate yourself, wear a mask, and get tested. Seek medical help if you have breathing difficulty.",
+    "symptoms": ["Fever", "Cough", "Shortness of breath", "Fatigue"],
+    "treatment": ["Rest", "Fluids", "Monitor symptoms", "Hospital care if severe"],
+    "prevention": ["Vaccination", "Wear mask", "Social distancing"]
+  },
+  "cancer": {
+    "advice": "Cancer is a serious disease that requires medical diagnosis and treatment. Please see an oncologist.",
+    "symptoms": ["Unexplained weight loss", "Lumps", "Fatigue", "Pain"],
+    "treatment": ["Surgery", "Chemotherapy", "Radiation"],
+    "prevention": ["Healthy lifestyle", "Screenings", "Avoid smoking"]
+  },
+  "diabetes": {
+    "advice": "Diabetes affects blood sugar levels. Eat a balanced diet, exercise, and monitor your glucose levels. Consult a doctor.",
+    "symptoms": ["Increased thirst", "Frequent urination", "Fatigue", "Blurred vision"],
+    "treatment": ["Diet control", "Exercise", "Medication", "Insulin (if needed)"],
+    "prevention": ["Healthy diet", "Exercise", "Weight control"]
+  },
+  "hypertension": {
+    "advice": "High blood pressure needs regular monitoring. Reduce salt, eat healthy, and consult your doctor.",
+    "symptoms": ["Often none", "Headaches", "Dizziness", "Nosebleeds"],
+    "treatment": ["Medication", "Diet change", "Exercise"],
+    "prevention": ["Limit salt", "Healthy weight", "Stress management"]
+  },
+  "malaria": {
+    "advice": "Malaria is a mosquito-borne disease. Seek medical care if you have high fever, chills, and body ache.",
+    "symptoms": ["Fever", "Chills", "Sweating", "Body ache"],
+    "treatment": ["Antimalarials", "Fluids", "Rest"],
+    "prevention": ["Mosquito nets", "Repellents", "Drain stagnant water"]
+  },
+
+  "asthma": {
+    "advice": "Asthma affects breathing. Use prescribed inhalers and avoid triggers. See your doctor for a plan.",
+    "symptoms": ["Shortness of breath", "Wheezing", "Coughing", "Chest tightness"],
+    "treatment": ["Inhalers", "Avoid triggers", "Medication as prescribed"],
+    "prevention": ["Avoid allergens", "Monitor air quality", "Follow treatment plan"]
+  },
+  "appendicitis": {
+    "advice": "Appendicitis can cause severe pain in the lower right abdomen. Seek emergency medical care.",
+    "symptoms": ["Lower right abdominal pain", "Nausea", "Fever", "Loss of appetite"],
+    "treatment": ["Surgery", "Antibiotics"],
+    "prevention": ["No known prevention, seek early medical care"]
+  },
+  "pneumonia": {
+    "advice": "Pneumonia is a lung infection. Symptoms include fever, cough, and difficulty breathing. See a doctor immediately.",
+    "symptoms": ["Fever", "Cough", "Shortness of breath", "Chest pain"],
+    "treatment": ["Antibiotics if bacterial", "Rest", "Fluids"],
+    "prevention": ["Vaccination", "Good hygiene", "Avoid smoking"]
+  },
+  "kidney stones": {
+    "advice": "Kidney stones can cause severe back or side pain and blood in urine. Drink water and consult a doctor.",
+    "symptoms": ["Severe back pain", "Blood in urine", "Frequent urination", "Nausea"],
+    "treatment": ["Pain relief", "Increased fluids", "Medical removal if needed"],
+    "prevention": ["Stay hydrated", "Limit salt & animal protein", "Maintain healthy weight"]
+  },
+  "menstrual cramps": {
+    "advice": "Menstrual cramps are common. A heating pad and pain relief medication may help.",
+    "symptoms": ["Lower abdominal pain", "Back pain", "Fatigue"],
+    "treatment": ["Heat therapy", "Pain relievers", "Rest"],
+    "prevention": ["Regular exercise", "Healthy diet", "Stress management"]
+  },
+  "pregnancy": {
+    "advice": "If you suspect you’re pregnant, take a test and consult a healthcare provider for prenatal care.",
+    "symptoms": ["Missed period", "Nausea", "Fatigue", "Breast tenderness"],
+    "treatment": ["Prenatal vitamins", "Regular checkups", "Healthy lifestyle"],
+    "prevention": ["Family planning", "Contraception if not planning pregnancy"]
+  },
+  "snake bite": {
+    "advice": "Stay calm, keep the affected area still, and seek emergency medical help immediately.",
+    "symptoms": ["Swelling", "Pain", "Redness", "Difficulty breathing if severe"],
+    "treatment": ["Antivenom", "Supportive care", "Wound cleaning"],
+    "prevention": ["Wear boots in snake-prone areas", "Avoid provoking snakes"]
+  },
+  "dog bite": {
+    "advice": "Clean the wound and see a doctor for rabies vaccination if needed.",
+    "symptoms": ["Wound", "Pain", "Bleeding", "Possible infection"],
+    "treatment": ["Clean wound", "Tetanus/rabies shots", "Antibiotics if needed"],
+    "prevention": ["Avoid unknown animals", "Vaccinate pets"]
+  },
+  "heat rash": {
+    "advice": "Stay cool, wear loose clothing, and keep the skin dry. Usually resolves on its own.",
+    "symptoms": ["Red rash", "Itching", "Small bumps"],
+    "treatment": ["Keep cool & dry", "Loose clothing", "Calamine lotion"],
+    "prevention": ["Avoid overheating", "Wear breathable clothes", "Stay dry"]
+  },
+  "sunburn": {
+    "advice": "Cool the skin, moisturize, and stay out of the sun. See a doctor if severe.",
+    "symptoms": ["Red skin", "Pain", "Peeling", "Blisters"],
+    "treatment": ["Cool compress", "Moisturizer", "Pain relief"],
+    "prevention": ["Use sunscreen", "Wear protective clothing", "Avoid midday sun"]
+  },
+  "panic attack": {
+    "advice": "Try deep breathing and staying calm. If frequent, seek help from a mental health professional.",
+    "symptoms": ["Rapid heartbeat", "Shortness of breath", "Sweating", "Fear"],
+    "treatment": ["Deep breathing", "Calm environment", "Therapy if recurrent"],
+    "prevention": ["Stress management", "Regular exercise", "Therapy"]
+  },
+  "high cholesterol": {
+    "advice": "Maintain a healthy diet, exercise, and consult a doctor for management.",
+    "symptoms": ["Usually no symptoms", "Detected through blood test"],
+    "treatment": ["Dietary changes", "Exercise", "Medications if needed"],
+    "prevention": ["Healthy diet", "Regular exercise", "Avoid smoking"]
+  },
+  "low blood sugar": {
+    "advice": "Eat or drink something sugary immediately. Monitor levels and see a doctor if needed.",
+    "symptoms": ["Shakiness", "Sweating", "Confusion", "Weakness"],
+    "treatment": ["Eat sugar", "Monitor levels", "Adjust medication if needed"],
+    "prevention": ["Regular meals", "Monitor blood sugar", "Manage medications"]
+  },
+  "eczema": {
+    "advice": "Eczema causes itchy, inflamed skin. Moisturize and avoid triggers. See a dermatologist.",
+    "symptoms": ["Itchy skin", "Redness", "Dry patches"],
+    "treatment": ["Moisturizers", "Topical creams", "Avoid triggers"],
+    "prevention": ["Moisturize regularly", "Avoid irritants", "Manage stress"]
+  },
+  "psoriasis": {
+    "advice": "Psoriasis causes scaly skin patches. Consult a dermatologist for treatment.",
+    "symptoms": ["Scaly patches", "Itching", "Dry skin"],
+    "treatment": ["Topical treatments", "Light therapy", "Medication"],
+    "prevention": ["Manage stress", "Avoid triggers", "Moisturize"]
+  },
+  "migraine": {
+    "advice": "Migraines are intense headaches. Rest in a dark room and take prescribed medication.",
+    "symptoms": ["Severe headache", "Nausea", "Sensitivity to light & sound"],
+    "treatment": ["Rest", "Medication", "Avoid triggers"],
+    "prevention": ["Track triggers", "Manage stress", "Regular sleep"]
+  },
+  "jaundice": {
+    "advice": "Yellow skin and eyes could indicate liver issues. See a doctor promptly.",
+    "symptoms": ["Yellow skin/eyes", "Dark urine", "Fatigue"],
+    "treatment": ["Treat underlying cause", "Rest", "Hydration"],
+    "prevention": ["Safe food & water", "Vaccination for hepatitis"]
+  },
+  "flu": {
+    "advice": "Rest, drink fluids, and monitor your symptoms. Seek care if it worsens.",
+    "symptoms": ["Fever", "Cough", "Body aches", "Fatigue"],
+    "treatment": ["Rest", "Fluids", "Antiviral medication if early"],
+    "prevention": ["Flu vaccine", "Hand washing", "Avoid sick people"]
+  },
+  "earache": {
+    "advice": "Ear pain may indicate infection. Avoid inserting objects and see a doctor.",
+    "symptoms": ["Ear pain", "Hearing loss", "Fever"],
+    "treatment": ["Pain relief", "Antibiotics if infected", "Keep ear dry"],
+    "prevention": ["Dry ears after swimming", "Avoid injury", "Treat infections promptly"]
+  },
+  "eye infection": {
+    "advice": "Wash hands and avoid touching the eyes. See an eye doctor for treatment.",
+    "symptoms": ["Redness", "Itching", "Discharge"],
+    "treatment": ["Eye drops", "Antibiotics if bacterial", "Good hygiene"],
+    "prevention": ["Avoid touching eyes", "Wash hands", "Use clean towels"]
+  },
+  "insomnia": {
+    "advice": "Establish a sleep routine and avoid screens before bed. See a doctor if persistent.",
+    "symptoms": ["Difficulty falling asleep", "Daytime fatigue", "Irritability"],
+    "treatment": ["Sleep hygiene", "Cognitive therapy", "Medication if needed"],
+    "prevention": ["Regular schedule", "Limit caffeine", "Relaxation techniques"]
+  },
+  "obesity": {
+    "advice": "Maintain a balanced diet and exercise. Seek advice from a healthcare provider.",
+    "symptoms": ["Excess body weight", "Breathlessness", "Joint pain"],
+    "treatment": ["Diet", "Exercise", "Medical/surgical options if needed"],
+    "prevention": ["Healthy eating", "Physical activity", "Monitor weight"]
+  },
+  "thyroid disorder": {
+    "advice": "Thyroid issues can cause weight, mood, or energy changes. See a doctor for tests.",
+    "symptoms": ["Fatigue", "Weight changes", "Mood changes"],
+    "treatment": ["Medication", "Regular monitoring"],
+    "prevention": ["Regular checkups", "Monitor iodine intake"]
+  },
+  "bronchitis": {
+    "advice": "Bronchitis causes cough and chest discomfort. Rest and see a doctor if severe.",
+    "symptoms": ["Cough", "Chest discomfort", "Fatigue"],
+    "treatment": ["Rest", "Fluids", "Medication if needed"],
+    "prevention": ["Avoid smoking", "Good hygiene", "Avoid air pollutants"]
+  },
+  "tonsillitis": {
+    "advice": "Sore throat with swollen tonsils. Gargle with salt water and consult a doctor.",
+    "symptoms": ["Sore throat", "Swollen tonsils", "Fever"],
+    "treatment": ["Rest", "Antibiotics if bacterial", "Warm fluids"],
+    "prevention": ["Avoid close contact", "Hand hygiene"]
+  },
+  "ulcer": {
+    "advice": "Stomach ulcers cause pain and indigestion. Avoid spicy food and see a doctor.",
+    "symptoms": ["Burning stomach pain", "Nausea", "Bloating"],
+    "treatment": ["Antacids", "Medications", "Avoid irritants"],
+    "prevention": ["Avoid NSAIDs", "Limit alcohol", "Manage stress"]
+  },
+  "urinary infection": {
+    "advice": "Burning or frequent urination may indicate UTI. Drink water and see a doctor.",
+    "symptoms": ["Painful urination", "Frequent urge", "Cloudy urine"],
+    "treatment": ["Antibiotics", "Fluids", "Rest"],
+    "prevention": ["Good hygiene", "Drink water", "Avoid irritants"]
+  },
+  "food poisoning": {
+    "advice": "Nausea, vomiting, or diarrhea after eating. Stay hydrated and see a doctor if severe.",
+    "symptoms": ["Nausea", "Vomiting", "Diarrhea", "Fever"],
+    "treatment": ["Fluids", "Rest", "Medical care if severe"],
+    "prevention": ["Eat fresh food", "Clean hands", "Proper cooking"]
+  },
+  "burn": {
+    "advice": "Cool the burn under water. Do not apply ice directly. Seek care if severe.",
+    "symptoms": ["Redness", "Blisters", "Pain"],
+    "treatment": ["Cool water", "Cover wound", "Medical care if needed"],
+    "prevention": ["Be cautious with heat", "Use protective gear"]
+  },
+  "fainting": {
+    "advice": "Lie down, elevate legs, and rest. See a doctor if it happens often.",
+    "symptoms": ["Lightheaded", "Loss of consciousness", "Weakness"],
+    "treatment": ["Rest", "Fluids", "Doctor if recurrent"],
+    "prevention": ["Avoid dehydration", "Stand up slowly", "Monitor health"]
+  },
+  "dehydration": {
+    "advice": "Drink plenty of water and rest. Severe cases need medical care.",
+    "symptoms": ["Thirst", "Dry mouth", "Dizziness"],
+    "treatment": ["Fluids", "ORS", "IV fluids if severe"],
+    "prevention": ["Drink regularly", "Avoid excessive heat", "Monitor fluids"]
+  },
+  "stroke": {
+    "advice": "Signs include face drooping, arm weakness, and slurred speech. Call emergency services.",
+    "symptoms": ["Numbness", "Speech trouble", "Weakness"],
+    "treatment": ["Emergency care", "Rehabilitation"],
+    "prevention": ["Control BP", "Healthy lifestyle", "Regular checkups"]
+  },
+  "seizure": {
+    "advice": "Protect from injury and don’t put anything in the mouth. Seek emergency help.",
+    "symptoms": ["Convulsions", "Loss of consciousness", "Confusion"],
+    "treatment": ["Ensure safety", "Medication", "Doctor care"],
+    "prevention": ["Take medication", "Avoid triggers", "Regular follow-up"]
+  },
+  "shock": {
+    "advice": "Lay the person down, keep warm, and call for emergency care.",
+    "symptoms": ["Pale skin", "Rapid pulse", "Weakness"],
+    "treatment": ["Emergency care", "Keep warm", "Fluids"],
+    "prevention": ["Early treatment of injuries & illnesses"]
+  },
+  "allergy": {
+    "advice": "Allergies can cause rash, itching, sneezing. Avoid allergens and consult a doctor if severe.",
+    "symptoms": ["Sneezing", "Rash", "Swelling"],
+    "treatment": ["Antihistamines", "Avoid allergens", "Doctor care if severe"],
+    "prevention": ["Avoid known triggers", "Carry medication if needed"]
+  },
+  "anemia": {
+    "advice": "Anemia is low hemoglobin. Eat iron-rich foods and see a doctor for proper tests.",
+    "symptoms": ["Fatigue", "Pale skin", "Weakness"],
+    "treatment": ["Iron supplements", "Diet", "Doctor care"],
+    "prevention": ["Iron-rich diet", "Treat underlying conditions"]
+  },
+  "arthritis": {
+    "advice": "Arthritis causes joint pain and stiffness. Exercise gently and consult a doctor for medications.",
+    "symptoms": ["Joint pain", "Swelling", "Stiffness"],
+    "treatment": ["Medication", "Physical therapy", "Exercise"],
+    "prevention": ["Maintain healthy weight", "Stay active", "Protect joints"]
+  },
+
+  "default": {
+    "advice": "Sorry, I didn’t understand. Please consult a medical professional.",
+    "symptoms": [],
+    "treatment": [],
+    "prevention": []
+  }
+}
